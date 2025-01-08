@@ -65,4 +65,3 @@ print("Performed Dislocation Analysis (DXA)")
 # Step 6: Export results
 pipeline.compute().export(output_file, "lammps/dump")
 print(f"DXA results saved to {output_file}")
-
